@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HexImpl
+Bundle-SymbolicName: de.cjt.verdion.osgi.calculator.hex.impl
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: calculator.calculate,
+ calculator.numeralsystem,
+ calculator.operator,
+ org.osgi.service.component;version="1.2.0"
+Service-Component: OSGI-INF/component.xml
+Export-Package: calculator.hex.impl

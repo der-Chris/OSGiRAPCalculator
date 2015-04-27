@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="de.cjt.verdion.osgi.calculator.operator.power.impl">
+   <implementation class="calculator.operator.power.impl.OperatorPowerImpl"/>
+   <service>
+      <provide interface="calculator.operator.IOperator"/>
+   </service>
+</scr:component>

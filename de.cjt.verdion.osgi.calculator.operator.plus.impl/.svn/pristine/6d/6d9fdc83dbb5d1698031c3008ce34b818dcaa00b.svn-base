@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OperatorPlusImpl
+Bundle-SymbolicName: de.cjt.verdion.osgi.calculator.operator.plus.impl
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: calculator.operator
+Service-Component: OSGI-INF/component.xml
