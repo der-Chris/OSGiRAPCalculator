@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" enabled="true" immediate="true" name="de.cjt.verdion.osgi.calculator.deci.impl">
+   <implementation class="calculator.deci.impl.DeciImpl"/>
+   <reference bind="bindCalc" cardinality="1..1" interface="calculator.calculate.ICalculate" name="ICalculate" policy="static" unbind="unbindCalc"/>
+   <reference bind="bindOperator" cardinality="1..n" interface="calculator.operator.IOperator" name="IOperator" policy="dynamic" unbind="unbindOperator"/>
+   <service>
+      <provide interface="calculator.numeralsystem.NumeralSystem"/>
+   </service>tring x1)"/>
+</scr:component>

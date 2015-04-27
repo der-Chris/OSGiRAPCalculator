@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: NumeralSystem
+Bundle-SymbolicName: de.cjt.verdion.calculator.numeralsystem.NumeralSystem
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: calculator.numeralsystem
+Import-Package: calculator.calculate,
+ calculator.operator

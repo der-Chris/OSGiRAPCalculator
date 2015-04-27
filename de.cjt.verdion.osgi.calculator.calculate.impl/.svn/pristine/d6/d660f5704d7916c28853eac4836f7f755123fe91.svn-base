@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="de.cjt.verdion.osgi.calculator.calculate">
+   <implementation class="calculator.calculate.impl.CalculateImpl"/>
+   <reference bind="bindOperator" cardinality="1..n" interface="calculator.operator.IOperator" name="IOperator" policy="dynamic" unbind="unbindOperator"/>
+   <service>
+      <provide interface="calculator.calculate.ICalculate"/>
+   </service>
+</scr:component>
